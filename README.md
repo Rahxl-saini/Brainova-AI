@@ -90,7 +90,7 @@ npm start
 
 # 📸 Demo
 
-Add screenshots or a demo GIF of Brainova-AI interacting with users.
+<img src="src/assets/Brainova-AI.png">
 
 # 🎯 Learning Outcomes
 
