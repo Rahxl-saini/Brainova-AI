@@ -90,7 +90,7 @@ npm start
 
 # 📸 Demo
 
-<img src="src/assets/Brainova-AI.png"></img>
+<!-- <img src="src/assets/Brainova-AI.png"></img> -->
 
 # 🎯 Learning Outcomes
 
