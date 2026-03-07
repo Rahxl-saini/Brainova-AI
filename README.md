@@ -62,7 +62,7 @@ Brainova-AI
 
 Clone the repository
 
-git clone https://github.com/your-username/Brainova-AI.git
+git clone https://github.com/Rahxl-saini/Brainova-AI
 
 Navigate to the project directory
 
