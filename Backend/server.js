@@ -6,21 +6,15 @@ import Groq from "groq-sdk";
 import chatRoutes from "./routes/chat.js";
 
 const app = express();
-const PORT = 8080;
+const PORT = process.env.PORT || 8080;
 
 app.use(express.json());
 app.use(cors());
 
 app.use("/api", chatRoutes);
 
-// Groq client
 const client = new Groq({
   apiKey: process.env.GROQ_API_KEY
-});
-
-app.listen(PORT, () => {
-  console.log(`server running on ${PORT}`);
-  connectDB();
 });
 
 const connectDB = async () => {
@@ -32,11 +26,17 @@ const connectDB = async () => {
   }
 };
 
+const startServer = async () => {
+  await connectDB();
 
+  app.listen(PORT, () => {
+    console.log(`Server running on ${PORT}`);
+  });
+};
 
-// 🔥 TEST GROQ API
+startServer();
+
 app.post("/test", async (req, res) => {
-
   try {
 
     const completion = await client.chat.completions.create({
@@ -57,5 +57,4 @@ app.post("/test", async (req, res) => {
     console.log(err);
     res.status(500).json({ error: "AI request failed" });
   }
-
 });
