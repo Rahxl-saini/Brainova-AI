@@ -1,11 +1,19 @@
 {
+  "name": "brainova-ai-backend",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "server.js",
+
+  "scripts": {
+    "start": "node server.js"
+  },
+
   "dependencies": {
     "cors": "^2.8.6",
     "dotenv": "^16.6.1",
     "express": "^5.2.1",
     "groq-sdk": "^0.37.0",
     "mongoose": "^8.23.0",
-    "nodemon": "^3.1.10",
     "openai": "^5.5.1"
   }
 }
