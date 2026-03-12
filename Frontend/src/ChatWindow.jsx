@@ -59,13 +59,13 @@ function ChatWindow() {
     }
 
     return (
-        <div className="chatWindow">
-            <div className="navbar">
-                <span>Brainova-AI <i className="fa-solid fa-chevron-down"></i></span>
-                <div className="userIconDiv" onClick={handleProfileClick}>
-                    <span className="userIcon"><i className="fa-solid fa-user"></i></span>
-                </div>
-            </div>
+        // <div className="chatWindow">
+        //     <div className="navbar">
+        //         <span>Brainova-AI <i className="fa-solid fa-chevron-down"></i></span>
+        //         <div className="userIconDiv" onClick={handleProfileClick}>
+        //             <span className="userIcon"><i className="fa-solid fa-user"></i></span>
+        //         </div>
+        //     </div>
             {
                 isOpen && 
                 <div className="dropDown">
