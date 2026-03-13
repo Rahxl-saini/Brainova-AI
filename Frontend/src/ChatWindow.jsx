@@ -14,16 +14,16 @@ function ChatWindow() {
         setNewChat(false);
 
         console.log("message ", prompt, " threadId ", currThreadId);
-        // const options = {
-        //     method: "POST",
-        //     headers: {
-        //         "Content-Type": "application/json"
-        //     },
-        //     body: JSON.stringify({
-        //         message: prompt,
-        //         threadId: currThreadId
-        //     })
-        // };
+        const options = {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json"
+            },
+            body: JSON.stringify({
+                message: prompt,
+                threadId: currThreadId
+            })
+        };
 
         try {
             const response = await fetch("http://localhost:8080/api/chat", options);
