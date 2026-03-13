@@ -9,9 +9,9 @@ function ChatWindow() {
     const [loading, setLoading] = useState(false);
     const [isOpen, setIsOpen] = useState(false);
 
-    // const getReply = async () => {
-    //     setLoading(true);
-    //     setNewChat(false);
+    const getReply = async () => {
+        setLoading(true);
+        setNewChat(false);
 
         console.log("message ", prompt, " threadId ", currThreadId);
         const options = {
