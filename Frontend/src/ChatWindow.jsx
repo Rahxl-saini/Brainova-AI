@@ -38,17 +38,17 @@ function ChatWindow() {
 
     //Append new chat to prevChats
     useEffect(() => {
-        // if(prompt && reply) {
-        //     setPrevChats(prevChats => (
-        //         [...prevChats, {
-        //             role: "user",
-        //             content: prompt
-        //         },{
-        //             role: "assistant",
-        //             content: reply
-        //         }]
-        //     ));
-        // }
+        if(prompt && reply) {
+            setPrevChats(prevChats => (
+                [...prevChats, {
+                    role: "user",
+                    content: prompt
+                },{
+                    role: "assistant",
+                    content: reply
+                }]
+            ));
+        }
 
         setPrompt("");
     }, [reply]);
