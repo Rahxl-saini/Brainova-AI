@@ -74,9 +74,9 @@ npm install
 
 # 🔑 Environment Variables
 
-<!-- Create a .env file in the root directory and add your API key.
+Create a .env file in the root directory and add your API key.
 
-OPENAI_API_KEY=your_api_key_here -->
+OPENAI_API_KEY=your_api_key_here
 
 # ▶️ Run the Project
 
