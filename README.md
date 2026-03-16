@@ -24,13 +24,13 @@ It allows users to communicate with an AI assistant capable of answering questio
 
 # Frontend
 
-React.js
+<!-- React.js
 
 HTML5
 
 CSS3
 
-JavaScript
+JavaScript -->
 
 # Backend
 
