@@ -6,11 +6,11 @@ It allows users to communicate with an AI assistant capable of answering questio
 
 # 🚀 Features
 
-<!-- 💬 Real-time AI chat interface
+💬 Real-time AI chat interface
 
 🧠 Context-aware intelligent responses
 
-⚡ Fast response generation using OpenAI API -->
+⚡ Fast response generation using OpenAI API
 
 🌐 Modern responsive UI
 
