@@ -21,15 +21,15 @@ router.post("/test", async (req, res) => {
 });
 
 // Get all threads
-router.get("/thread", async (req, res) => {
-    try {
-        const threads = await Thread.find({}).sort({ updatedAt: -1 });
-        res.json(threads);
-    } catch (err) {
-        console.log(err);
-        res.status(500).json({ error: "Failed to fetch threads" });
-    }
-});
+// router.get("/thread", async (req, res) => {
+//     try {
+//         const threads = await Thread.find({}).sort({ updatedAt: -1 });
+//         res.json(threads);
+//     } catch (err) {
+//         console.log(err);
+//         res.status(500).json({ error: "Failed to fetch threads" });
+//     }
+// });
 
 // Get single thread messages
 router.get("/thread/:threadId", async (req, res) => {
