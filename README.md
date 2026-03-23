@@ -60,7 +60,7 @@ Brainova-AI
 
 # ⚙️ Installation
 
-<!-- Clone the repository
+Clone the repository
 
 git clone https://github.com/Rahxl-saini/Brainova-AI
 
@@ -70,7 +70,7 @@ cd Brainova-AI
 
 Install dependencies
 
-npm install -->
+npm install
 
 # 🔑 Environment Variables
 
