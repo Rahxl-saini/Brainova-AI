@@ -6,7 +6,7 @@ It allows users to communicate with an AI assistant capable of answering questio
 
 # 🚀 Features
 
-<!-- 💬 Real-time AI chat interface
+💬 Real-time AI chat interface
 
 🧠 Context-aware intelligent responses
 
@@ -18,7 +18,7 @@ It allows users to communicate with an AI assistant capable of answering questio
 
 📜 Conversation history support
 
-🧩 Scalable and modular architecture -->
+🧩 Scalable and modular architecture
 
 # 🛠️ Tech Stack
 
