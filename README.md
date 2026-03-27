@@ -43,7 +43,7 @@ AI Integration
 OpenAI API
 
 # 📂 Project Structure
-Brainova-AI
+<!-- Brainova-AI
 │
 ├── frontend
 │   ├── components
@@ -56,7 +56,7 @@ Brainova-AI
 │   └── server.js
 │
 ├── .env
-└── README.md
+└── README.md -->
 
 # ⚙️ Installation
 
