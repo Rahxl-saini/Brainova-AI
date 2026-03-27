@@ -80,13 +80,13 @@ OPENAI_API_KEY=your_api_key_here
 
 # ▶️ Run the Project
 
-<!-- Start the backend server
+Start the backend server
 
 node server.js
 
 Start the frontend
 
-npm start -->
+npm start
 
 # 📸 Demo
 
