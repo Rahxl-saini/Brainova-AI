@@ -34,13 +34,13 @@ JavaScript
 
 # Backend
 
-<!-- Node.js
+Node.js
 
 Express.js
 
 AI Integration
 
-OpenAI API -->
+OpenAI API
 
 # 📂 Project Structure
 Brainova-AI
