@@ -1,8 +1,8 @@
 # 🧠 Brainova-AI
 
-Brainova-AI is a full-stack AI chatbot that leverages powerful OpenAI APIs to generate intelligent, human-like responses in real time. The project demonstrates how modern web technologies can be integrated with large language models to build interactive conversational systems.
+<!-- Brainova-AI is a full-stack AI chatbot that leverages powerful OpenAI APIs to generate intelligent, human-like responses in real time. The project demonstrates how modern web technologies can be integrated with large language models to build interactive conversational systems.
 
-It allows users to communicate with an AI assistant capable of answering questions, generating content, and assisting with various tasks through natural language.
+It allows users to communicate with an AI assistant capable of answering questions, generating content, and assisting with various tasks through natural language. -->
 
 # 🚀 Features
 
